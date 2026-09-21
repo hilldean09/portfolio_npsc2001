@@ -7,4 +7,4 @@
 - Algorithmic analysis (Communication 3).
 - Detailing project status.
 - Management of information through technology.
-- Improving at explain my project (Communication 2).
+- Improving at explaining my project (Communication 2).
