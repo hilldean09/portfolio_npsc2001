@@ -1,5 +1,4 @@
 
-
 # Reflection Brainstorming
 
 *Topics*:
@@ -7,4 +6,3 @@
 - Algorithmic analysis (Communication 3).
 - Detailing project status.
 - Management of information through technology.
-- Improving at explaining my project (Communication 2).
