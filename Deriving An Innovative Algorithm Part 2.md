@@ -11,11 +11,17 @@ When the project pivoted from using geometric properties (e.g. coordinates) to d
 
 The process of identifying developing an algorithm, comparing it to alternatives, and clarifying priorities was incredibly insightful into how real HPC researchers work. My notes on the process, in which I focused on formalising my logic and arguments, can be found in *Artefact: ```Weekly-Log-2026-05-05.md```* (note that this artefact contains multiple different sections which would be considered artefacts on their own).
 
-*Artefact: ```Weekly-Log-2026-05-05.md```* evidences improvement in a number of categories I identified in my Independent Study Contract (ISC), primarily *Problem Identification and Solution 2 & 3*, *Teamwork 1 & 2*, *Communication 1 & 3*, and *Initiative and Enterprise 3*. I will only address *Problem Identification and Solution 2 & 3* and *Initiative and Enterprise 3* here (part 1) for brevity.
+*Artefact: ```Weekly-Log-2026-05-05.md```* evidences improvement in a number of categories I identified in my Independent Study Contract (ISC), primarily *Problem Identification and Solution 2 & 3*, *Teamwork 1 & 2*, *Communication 1 & 3*, and *Initiative and Enterprise 3*. Here (part 2), I will focus on *Teamwork 1 & 2* and *Communication 1 & 3* for brevity.
 
 # The Reflection
 
+This reflection relates to my notes on communication between my supervisors and myself regarding the development of a topology-aware global vertex indexing algorithm seen in *Artefact: ```Weekly-Log-2026-05-05.md```*.
 
+When writing my Independent Study Contract (ISC), I did not expect to have the opportunity to achieve outcomes relating to collaborative work, being the only person working on my project, however, when discussing topology-aware global vertex indexing algorithms I had the opportunity to (non-trivially) exchange ideas with my supervisors. 
+
+As the global vertex indexing algorithm is core to my project (allows use to establish H1-mesh conformity, a convenient mathematical property needed by Gridap.jl), ensuring it is accurate is of key importance. As T8code imposes a variety of limitations on the topological informations and methods available, there was no clear algorithm to reach for, thus my supervisors and I were thorough in discussing possible algorithms, and ultimately our goals (*Teamwork 1*). 
+
+During the discussion, my first priority was expressing my ideas in a fluid and concise manner as to reduce the mental load of the already demanding technical concept and to respect my supervisors' time (*Communication 1*). Additionally, constructively critiquing my supervisors' suggestions, while uncomfortable given their expertise, was necessary (and eventually fruitful) and having said critiques validated and invalidated made me more comfortable broaching feedback (though still cautiously) to supervisors and those more technically capable/knowledgeable than me (*Teamwork 2*).
 
 
 
