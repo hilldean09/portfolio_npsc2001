@@ -2,7 +2,7 @@
 Date : 2026-07-27
 ---
 
-Facing technical challenges that confront core paradigms within finite-element codes (```T8code```, ```p4est```, ```Gridap.jl```) and algorithms has necessitated the development of my technical communication skills. I have previously identified technical communication, particularly in a team, as a skill I needed more experience (*Teamwork 1 and 2*).
+Facing technical challenges that confront core paradigms within finite-element codes (```T8code```, ```p4est```, ```Gridap.jl```) and algorithms has necessitated the development of my technical communication skills. I have previously identified technical communication, particularly in a team, as a skill I needed more experience in (*Teamwork 1 and 2*).
 
 While implementing a topology based global vertex enumeration algorithm I came across a feature of ```T8code```, neighbour face orientation encoding, for which I could only assume my understanding was correct, but not yet confirm. Despite multiple avenues of resolution I still could not definitively confirm the accuracy of my understanding. I continued programming under the assumption my understanding was correct, which I would then later test after the needed functionality was established. 
 
