@@ -1,5 +1,9 @@
-This document contains a plain text copy of the peer review Arjan provided me on the 23rd of September (2026).
+This document contains a plain text copy of the peer review Arjan provided me on the 23rd of September (2026) on my "Development of Technical Communication" reflection.
 
-# The Copied Reflection
+# The Copied Peer Review
 
 Dean's reflection is very good at analysing his experience and breaking down what he learnt. I like how he is very clear on exactly what he learnt and why his experiences taught him this. His conclusions are clearly laid out and he is very specific about the technicalities of what he learnt. While technical detail often complicates and makes a reflection confusing, I think the inclusion of the specific example where he made these conclusions was very helpful in understanding his experience. My only complaint here is that it was probably still a little technical - the specific details relevant to his project are hard to understand from an outsider perspective and not really necessary in the explanation - I do not really need to know what concepts he was trying to explain using technical jargon before he switched to mathematical statements. I like how he specifies the skill he wanted to improve in, and how this experience helped him with that. I really like how structured the reflection is - Dean has a clear idea of what he wanted to improve at and how this activity helped him with that. It also makes it easier to read and understand. The style of the reflection is very formal, but this is mostly just a stylistic choice. If this is the form that helps him verbalise his thoughts and feelings best, he should stick with it. I only mention it because it is not how I would write my own, but this could just be a difference in expression. I found his analysis of how his conclusions challenged his previous perceptions to be an interesting and useful output of this reflection. I thought it was a good way to summarise what he learnt and how it changed his perceptions.
+
+# My Notes
+- (As seen in another peer review) I am unaware of my own jargon.
+- I should consider the appropriate level of formality for reflections.
