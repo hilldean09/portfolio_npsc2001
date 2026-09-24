@@ -2,9 +2,9 @@
 Created: 2026-09-12
 ---
 
-Below I have copied the peer review I received from James Robbins via email on the 11th of September (2026) in response to my reflection titled *Learning To Use A HPC Environment*
+Below I have copied the peer review I received from James via email on the 11th of September (2026) in response to my reflection titled *Learning To Use A HPC Environment*
 
-# The Peer Review
+# The Copied Peer Review
 
 Overall, the reflection was effective in explaining the activities that took place and a meaningful reflection was made. The summary of everything that was undertaken was very thorough, and the reference to artefacts was useful as evidence of the work taken place. One criticism is that it seemed slightly too technical in some points, rather than focussing more on the reflection. The length of the reflection could likely be reduced slightly to not include some of the more specific details of the activity. However, the appendix was an effective inclusion in making the technical aspects more clear and understandable. 
  
