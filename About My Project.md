@@ -4,7 +4,7 @@ Created : 2026-09-26
 ---
 
 The formal title of my project, as proposed, is "Tree-based Adaptive Mesh Refinement in Gridap.jl." Gridap.jl is an open-source finite-element partial differential equation solver. Currently this likely stands as a mouthful of jargon, so for a quick term breakdown:
-- Partial differential equations (PDEs) are a specific type of differential equations (equations that solve for a function by incorporating it's derivatives) and appear very frequently in engineering and physics as many different physical phenomena can be described using PDEs (e.g. heat flow, quantum wave packets, structural stress, fluid dynamics).
+- Partial differential equations (PDEs) are a specific type of differential equations (equations that solve for a function by incorporating its derivatives) and appear very frequently in engineering and physics as many different physical phenomena can be described using PDEs (e.g. heat flow, quantum wave packets, structural stress, fluid dynamics).
 - The finite-element method (FEM) is a method for reducing the infinite complexity of relevant function spaces (sets of all possible functions fulfilling some conditions) to a finite complexity that computers can handle (specifically by approximating the solution with, typically, a piecewise polynomial function) by discretising the domain, i.e. making a computer mesh of the physical system.
 - Tree-based adaptive mesh refinement (AMR) is a method for dynamically adapting the discretisation (mesh) by detecting areas of high-complexity (e.g. the centre of a whirlpool) and making said areas finer, i.e. refining the mesh, to make the solution more accurate without increasing the refinement level of the whole mesh which would take considerably more computational resources. 
 
