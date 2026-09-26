@@ -16,10 +16,11 @@ My contribution aims to resolve the aforementioned issues and create a high-leve
 
 # Some Concepts You Will See Throughout
 
+## Elements
+
+Elements throughout this portfolio will (near certainly) be referring to the shapes that make up the discretisation, i.e. mesh. In my project elements are typically tetrahedra or triangles.
+
 ## Topology Aware Global Vertex Indexing/Enumeration Algorithm
 
-A core algorithm to resolve the mesh conformity issue is producing a global enumeration of the vertices of the discretisation, i.e. mesh, that is uniquely labelling every vertex with a $1, 2, 3 \dots$
-
-
-
+A core algorithm to resolve the mesh conformity issue is producing a global enumeration/indexing of the vertices of the discretisation, i.e. mesh, that is uniquely labelling every vertex with $1, 2, 3 \dots$. A topology aware global vertex indexing/enumeration algorithm is one such algorithm that relies on topological properties of the elements and mesh (e.g. how the elements connect).
 
