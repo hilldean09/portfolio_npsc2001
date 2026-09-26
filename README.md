@@ -1,5 +1,7 @@
 This is my portfolio assessment submission for NPSC2001.
 
+It is recommended to use a markdown viewer to read this portfolio (e.g. Obsidian, Typora, Notion (I believe), or online alternatives).
+
 # Stylistic Features to Note
 
 ## Independent Study Contract (ISC) Achievement Outcome Referencing

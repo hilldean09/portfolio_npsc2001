@@ -10,6 +10,16 @@ The formal title of my project, as proposed, is "Tree-based Adaptive Mesh Refine
 
 As tree-based adaptive mesh refinement is a very complex algorithm, especially when targeting supercomputing environments, and there already exists an excellent library called T8code, the goal of the project is more so the integration of T8code into Gridap.jl. The integration of T8code into Gridap.jl is non-trivial for a few reasons:
 1) Gridap.jl is written in Julia (the programming language), an interpreted language that is excellent for mathematical computing, even in HPC environments, while T8code is written in the compiled language C++. We thus have an instance of the Two-language Problem.
-2) 
+2) Gridap.jl and T8code have different mesh conformity requirements (relates to the computational representation of elements with respect to each other).
+
+My contribution aims to resolve the aforementioned issues and create a high-level user interface.
+
+# Some Concepts You Will See Throughout
+
+## Topology Aware Global Vertex Indexing/Enumeration Algorithm
+
+A core algorithm to resolve the mesh conformity issue is producing a global enumeration of the vertices of the discretisation, i.e. mesh, that is uniquely labelling every vertex with a $1, 2, 3 \dots$
+
+
 
 
