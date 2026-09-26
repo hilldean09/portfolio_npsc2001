@@ -18,7 +18,7 @@ The aforementioned improvement to my work efficiency has obvious benefits to my 
 Below is an example of a C++ program that prints "Hello World":
 
 ```cpp
-#include <stdio>
+#include <iostream>
 
 int main( int argc, char** argv ) {
   std::cout << "Hello World" << std::endl;
