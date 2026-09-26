@@ -1,0 +1,14 @@
+# Implementing Disjoint Set Union Canonisation 
+For each element in the vertex equivalence DSU we'd like to compute the canonical owner of each of it's corners. We begin by identifying the tree in which the element lies from the constructed global element index. We then identify the corner of interest and would like to compute its canonical owner. We identify the faces of the corner's faces using ```t8_element_get_corner_face()``` (note that I can see no function to produce an upper-bound for the number of faces a given corner touches which is notable for the corner-faces must be iterated through). We then check if the equivalent corner of all neighbour elements are canonicalised. If an equivalent corner is found to canonicalised then we should follow the owner index until we find a self referencing owner index. If no equivalent canonicalised corner is found then the element's owner index should be set to itself (making it the canonical owner).
+
+# Determining Equivalent Corners
+First the ```main_face``` need be determined, this can be done by checking the face with the lowest face number as it will be (currently) assumed that all elements are of the same (simplicial) element class. A concern is the seemingly non-invariant handling of face numbers of equal values. Comments found in the T8code source code in ```t8_cmesh/t8_cmesh.h``` suggest the choice of ```main_face``` between two faces of equal face number produces the same result regardless of the choice of ```main_face```. 
+
+After ```main_face``` is determined simply applying the formula described in the previous log will determine corner equivalence.
+
+# Calculating Global Element Index of an ```t8_element_t``` Object
+As the conversion from a tree-local element index to a global element index has already been covered, the primary point of focus is retrieving the element index of a leaf element with respect to a tree in a forest. 
+
+Investigating functions returning ```t8_locidx_t``` or ```t8_gloidx_t``` and taking ```t8_element_t*``` or ```const t8_element_t*```as an argument reveals the function ```t8_element_array_find()```which searches a ```t8_element_array_t``` object for an element represented by an ```t8_element_t``` object returning it's "position in the array" via a ```t8_locidx_t``` object. The array of leaf elements of a tree in a forest can be retrieved via ```t8_forest_tree_get_leaf_elements()``` (not to be confused with it's private counterparts). However, note that it is not guaranteed that the local index returned for an element pointer in the retrieved array is consistent with the local index used to initially retrieve the element pointer. This can be confirmed or disproved with a simple test.
+
+Note that in the case that the indexing is not consistent, it can be made consistent by instead initially accessing the element pointer from the array (which could then be stored in the vertex equivalence DSU class).
